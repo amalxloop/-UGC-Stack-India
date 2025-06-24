@@ -39,4 +39,24 @@ This all-in-one file includes:
 
 ---
 
-## 🚀 How
+## 🚀 How to Run
+
+```bash
+npm install
+npm run dev
+```
+
+Make sure you have `vite`, `tailwindcss`, `react`, `react-dom` installed.
+
+---
+
+## 🧠 Vision
+
+> UGC Stack India is built to empower creators — from pricing to legal, one tool at a time.
+
+This is just the beginning — more tools (invoice generation, contracts, pitch templates) will be added next.
+
+---
+
+📍 Built with ❤️ by and for Indian creators.
+
