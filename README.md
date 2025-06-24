@@ -1,65 +1,42 @@
-# 🇮🇳 UGC Stack India — React Web App
+# 🇮🇳 UGC Stack India — All-in-One React Bundle
 
-**UGC Stack India** is a full-stack productivity suite for Indian UGC creators. This web application helps creators calculate fair pricing, generate GST-compliant invoices, build contracts, manage brand deals, and access UGC-specific templates and resources.
+**UGC Stack India** is a bundled React + TailwindCSS web application built for Indian UGC (User-Generated Content) creators.
 
----
-
-## 🚀 Features
-
-- ✅ UGC Pricing Calculator based on platform and followers  
-- ✅ GST Invoice Generator (download as PDF)  
-- ✅ Legal UGC Contract Generator (editable fields)  
-- ✅ Brand Pitch Templates  
-- ✅ Deal Tracker  
-- ✅ Tailwind CSS with dark mode support  
+This all-in-one file includes:
+- React components
+- Tailwind CSS styles
+- Vite-compatible HTML
+- Full configuration (`tailwind.config.js`, `postcss.config.js`)
+- Gitignore
+- A working pricing calculator
 
 ---
 
-## 🛠 Tech Stack
+## 📦 Features
 
-- React  
-- Tailwind CSS  
-- Vite  
-- HTML2PDF (upcoming)  
-- LocalStorage (for data persistence)
-
----
-
-## 📦 Install & Run
-
-```bash
-npm install
-npm run dev
-```
+- 📈 **Pricing Calculator** — Estimate brand deal rates based on platform & followers  
+- 🌗 **Dark Mode Support** — Toggle-ready via `dark:` utility classes  
+- 🛠️ **TailwindCSS Setup** — Minimal, responsive, and clean design system  
+- ⚙️ **React + Vite Ready** — Super fast dev environment  
+- ✅ **Ready for Vercel Deploy**
 
 ---
 
-## 📁 Folder Structure
+## 📁 Included in This Bundle
 
-```
-ugc-stack-india/
-├── public/
-├── src/
-│   ├── components/
-│   ├── styles/
-│   ├── App.jsx
-│   └── main.jsx
-├── tailwind.config.js
-├── postcss.config.js
-├── index.html
-├── .gitignore
-└── README.md
-```
+| File / Path                  | Description                                |
+|-----------------------------|--------------------------------------------|
+| `src/main.jsx`              | React root render + styles import          |
+| `src/App.jsx`               | Main app wrapper with layout and routing   |
+| `src/components/Navbar.jsx` | Header/navigation                          |
+| `src/components/PricingCalculator.jsx` | Main tool (MVP)                  |
+| `src/components/Footer.jsx` | Footer message                             |
+| `src/styles/index.css`      | Tailwind CSS stylesheet                    |
+| `public/index.html`         | Root HTML container for Vite               |
+| `tailwind.config.js`        | Tailwind setup                             |
+| `postcss.config.js`         | PostCSS setup for Tailwind                 |
+| `.gitignore`                | Ignored files for Git/GitHub               |
 
 ---
 
-## 🧠 Vision
-
-We're building the creator stack India deserves.  
-From pricing to legal support to brand readiness — everything a modern Indian UGC creator needs.
-
-> Join the stack. Empower the economy. 🎥📈
-
----
-
-Made with ❤️ by and for Indian creators.
+## 🚀 How
